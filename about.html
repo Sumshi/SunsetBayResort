@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>best resort</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<!--font awesome link for icons-->
+<!--font awesome link for icons must include this kit to prevent blank icons-->
+<script src="https://kit.fontawesome.com/d7accf2a63.js" crossorigin="anonymous"></script>
+</head>
+
+<!--body begins-->
+<body>
+
+
+
+  <!--header section-->
+  <section class="sub-header">
+    <!--adding a nav to contain the logo and links like about, home-->
+    <nav>
+      <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+      <!--creating a div to contain the links-->
+      <div class="nav-links" id="navLinks">
+        <!--close x icon-->
+        <svg xmlns="http://www.w3.org/2000/svg" onclick="hideMenu()" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="suite.html">SUITE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+<!--menu icon-->
+<svg xmlns="http://www.w3.org/2000/svg" onclick="showMenu()" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </nav><!--nav ends here-->
+    <h1>About Us</h1>
+  </section>
+
+  <!--about us content-->
+<section class="about-us">
+<div class="row">
+  <div class="about-col">
+    <h1><em>ABOUT SUNSET BAY RESORT</h1></em>
+    <p>
+    At sunset bay resort, our motivation is clear - to offer travelers a home away from home where 
+    they can make cherished memories. We believe that every guest deserves more than just 
+    accommodation; they deserve an experience. Our motive is to provide a place where individuals 
+    and families can connect, celebrate, relax, and rejuvenate. We're inspired by the idea that a stay 
+    at our hotel can be a transformative journey, filled with moments of delight and relaxation. 
+    Our mission is to create a haven of luxury and genuine hospitality, where each guest feels special, 
+    and every visit becomes a chapter in a beautiful story of travel and discovery.
+    </p>
+    <a href="suite.html" class="hero-btn red-btn">EXPLORE OUR SUITES</a>
+  </div>
+
+    <div class="about-col">
+      <img src="img/background.jpg" alt="">
+  </div>
+</div>
+</section>
+
+
+<!--footer section, end of page-->
+
+<section class="footer">
+  <h4>About Us</h4>
+   <p>
+    With a legacy spanning over a century, sunset bay resort has consistently set high standards for hospitality and guest satisfaction.
+We take pride in our dedicated staff, exceptional guest experiences, and an unwavering commitment to creating memorable stays.
+Our commitment to excellence in service and comfort has made sunset bay resort a preferred destination for travelers seeking the utmost in luxury and relaxation. We invite you to be part of our legacy of unparalleled hospitality.
+  </p>
+       <br>
+     <p>Connect with us on:</p>
+  </p>
+  <div>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+  </div>
+  <p><em>Made with<i class="fa-solid fa-heart"></i>by Sumaya Ahmed</p></em>
+</section>
+
+
+
+
+
+
+  <!--javascript code for the clicking, toggling of the menu icon-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+        function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
