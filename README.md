@@ -1,2 +1,2 @@
 # CampusOnline
-live: http://sumaya.me/CampusOnline/
+live: http://sumaya.me/SunsetBayResort/
